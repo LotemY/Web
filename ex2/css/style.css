@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer, nav, section {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    height: 657px;
+    background: #ED4C5C;
+}
+
+#logo {
+    position: absolute;
+    left: 51px;
+    top: 61px;
+    height: 17.4px;
+    width: 190px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../images/logo.png);
+}
+
+#myName {
+    position: absolute;
+    width: 128px;
+    height: 22px;
+    left: 87px;
+    top: 59px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+nav {
+    position: absolute;
+    width: 445px;
+    height: 22px;
+    left: 50px;
+    top: 129px;
+}
+
+.aNav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.aNav:hover {
+    color: gray;
+}
+
+#myImg {
+    position: absolute;
+    width: 445px;
+    height: 311px;
+    left: 90px;
+    top: 196px;
+    background: #C4C4C4;
+    border-radius: 15px;
+}
+
+#signUp {
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    left: 51px;
+    top: 552px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #ED4C5C;
+}
+
+#firstArt {
+    position: absolute;
+    width: 100%;
+    height: 657px;
+    left: 0px;
+    top: 657px;
+    background: #FFFFFF;
+}
+
+#headLabel {
+    position: absolute;
+    width: 451px;
+    height: 30px;
+    left: 50px;
+    top: 56px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+}
+
+#info {
+    position: absolute;
+    width: 445px;
+    height: 47px;
+    left: 50px;
+    top: 175px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #000000;
+}
+
+#learnMore {
+    position: absolute;
+    width: 72px;
+    height: 26.28px;
+    left: 50px;
+    top: 278px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #ED4C5C;
+}
+
+#imgSec {
+    position: absolute;
+    top: 345px;
+}
+
+.imgPos {
+    position: absolute;
+    width: 350px;
+    height: 248.86px;
+    border-radius: 8px;
+}
+
+#firstImg {
+    left: 50px;
+    background: #C4C4C4;
+}
+
+.imgLabel {
+    position: absolute;
+    width: 350px;
+    height: 40px;
+    top: 209px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    color: #ED4C5C;
+}
+
+.imgLink {
+    color: #ED4C5C;
+}
+
+#firstLabel {
+    left: 50px;
+}
+
+#secImg {
+    left: 430px;
+    background: #C4C4C4;
+}
+
+#secLabel {
+    left: 430px;
+}
+
+#thirdImg {
+    left: 810px;
+    background: #C4C4C4;
+}
+
+#thirdLabel {
+    left: 810px;
+}
+
+.techBack {
+    position: initial;
+    width: 100%;
+    height: 657px;
+    left: 0px;
+    top: 1314px;
+    background: #F5F4F4;
+}
+
+#skillSec {
+    position: absolute;
+    width: 100%;
+    height: 657px;
+    top: 1314px;
+    background: #F5F4F4;
+}
+
+#skillH {
+    position: absolute;
+    width: 300px;
+    height: 47px;
+    left: 50px;
+    top: 57px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+}
+
+.skillBlock {
+    position: absolute;
+    top: 160px;
+}
+
+.skills {
+    position: absolute;
+    width: 255px;
+    height: 226px;
+    background: #FFFFFF;
+}
+
+.skillHeader {
+    position: absolute;
+    width: 255px;
+    height: 22px;
+    top: 139px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #101010;
+}
+
+.skillInfo {
+    position: absolute;
+    width: 255px;
+    height: 51px;
+    top: 171px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #000000;
+}
+
+.skillImg {
+    position: absolute;
+    top: 46px;
+    width: 70px;
+    height: 70px;
+    padding-left: 92.5px;
+}
+
+#firstSkill {
+    left: 50px;
+}
+
+#secondSkill {
+    left: 335px;
+}
+
+#thirdSkill {
+    left: 620px;
+}
+
+#fourSkill {
+    left: 905px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 1971px;
+    background: #ED4C5C;
+}
+
+#fLinks {
+    position: absolute;
+    width: 134px;
+    height: 32px;
+    left: 50px;
+    top: 29px;
+}
+
+.footerLink {
+    width: 28px;
+    height: 28px;
+    margin-left: 14px;
+}
+
+.footerLabel {
+    position: absolute;
+    width: 340px;
+    height: 28px;
+    left: 264px;
+    top: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
