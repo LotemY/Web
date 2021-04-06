@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer, nav, section {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    float: left;
+}
+
+a:hover {
+    color: #585858;
+}
+
+header {
+    display: flex;
+    height: 193px;
+    background-color: #d6d6d6;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../images/logo.png);
+}
+
+nav {
+    background-color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 22px;
+}
+
+#layout1Nav {
+    height: 62px;
+    width: 100%;
+}
+
+#layout1Nav ul {
+    display: flex;
+}
+
+#layout2Nav {
+    float: left;
+    width: 146px;
+    height: 757px;
+}
+
+ul {
+    padding-top: 10px;
+}
+
+#layoutSelect {
+    background-color: #2f96b4;
+}
+
+#layoutSelect:hover {
+    color: white
+}
+
+.navLink {
+    height: 40px;
+    width: 235px;
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.navLink2 {
+    display: flex;
+    height: 58px;
+    width: 141px;
+    padding-left: 5px;
+}
+
+#wrapper {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+aside {
+    background-color: #eeeeee;
+}
+
+#firstSide {
+    float: right;
+    width: 244px;
+    height: 696px;
+}
+
+#secondSide {
+    float: left;
+    width: 257px;
+    height: 757px;
+}
+
+#secondSide label {
+    background-color: #468847;
+}
+
+#rectangle {
+    width: 148px;
+    height: 59px;
+    float: right;
+    margin-right: 15px;
+    margin-top: 200px;
+}
+
+#firstMain {
+    height: 695px;
+}
+
+#secondMain {
+    width: 597px;
+    height: 757px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.fourSqr {
+    width: 235px;
+    height: 235px;
+}
+
+#topLeft {
+    margin-left: 39px;
+    padding-top: 24px;
+}
+
+.largBoxes {
+    width: 270px;
+    margin-bottom: 0px;
+    background-color: #468847;
+}
+
+#lBTopLeft {
+    margin-top: 22px;
+    margin-left: 22px;
+    height: 324px;
+}
+
+#lBTopRight {
+    margin-top: 22px;
+    margin-left: 16px;
+    height: 254px;
+}
+
+#lBButtomLeft {
+    margin-left: 22px;
+    margin-top: 24px;
+    height: 412px;
+}
+
+#lBButtomRight {
+    height: 364px;
+    margin-left: 16px;
+    margin-top: -46px;
+}
+
+label {
+    height: 100px;
+    width: 100px;
+    background-color: #2f96b4;
+    float: left;
+    margin-bottom: 35px;
+}
+
+.sideSq {
+    margin-right: 35px;
+}
+
+#buttomRight {
+    padding-right: 24px;
+    float: right;
+    padding-top: 178px;
+}
+
+#buttomLeft {
+    padding-left: 11px;
+    padding-top: 510px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #d6d6d6;
+}
+
+#footer2 {
+    position: fixed;
+    width: 1000px;
+    bottom: 0;
+}
