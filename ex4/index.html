@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex4</title>
+
+</head>
+
+<body>
+    <form action="http://se.shenkar.ac.il/teach/web1/2021/get_form3.php" method="GET">
+        <label>Full Name:<input name="fullName" type="text"></label>
+        <br>
+        <label>Password:<input name="pass" type="password"></label>
+        <br>
+        <label>Mail:<input name="mail" type="mail"></label>
+        <br>
+        <label>Website:<input name="website" type="url"></label>
+        <br>
+        <label>Phone:<input name="phone" type="tel"></label>
+        <br>
+        <label>Coffee:<input name="coffee" type="number"></label>
+        <br>
+        <label>Temper:<input name="temper" type="range"></label>
+        <br>
+        <label>Address:<textarea name="address" rows="3" cols="30"></textarea></label>
+        <br>
+        <label>Interests:</label>
+        <span><label>Interest 1 <input name="interests[]" type="checkbox" value="Interest 1"> </label></span>
+        <span><label>Interest 2 <input name="interests[]" type="checkbox" value="Interest 2"> </label></span>
+        <span><label>Interest 3 <input name="interests[]" type="checkbox" value="Interest 3"> </label></span>
+        <span><label>Interest 4 <input name="interests[]" type="checkbox" value="Interest 4"> </label></span>
+        <br>
+        <label>Gender:
+            <label>Male<input name="gender" type="radio" value="male" checked></label>
+            <label>Female<input name="gender" type="radio" value="female"></label>
+        </label>
+        <br>
+        <label>Age:</label>
+        <select name="age">
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24" selected>24</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
