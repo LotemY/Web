@@ -12,7 +12,7 @@
     <h1>
         Result:
         <?php
-        $op = $_GET["option"];
+        $op = $_GET["op"];
         $first = $_GET["first"];
         $second = $_GET["second"];
 

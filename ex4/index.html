@@ -14,9 +14,9 @@
 <body>
     <h1>Please fill the inputs below</h1>
     <form action="http://se.shenkar.ac.il/teach/web1/2021/get_form3.php" method="GET">
-        <label>Full Name:<input name="fullName" type="text"></label>
+        <label>Full Name:<input name="fullName" type="text" pattern="^([A-Za-z]+[,.]?[ ]?|[A-Za-z]+['-]?)+$"></label>
         <br>
-        <label>Password:<input name="pass" type="password"></label>
+        <label>Password:<input name=" pass" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,10}"></label>
         <br>
         <label>Mail:<input name="mail" type="mail"></label>
         <br>
